@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-image:url("https://i.gifer.com/origin/da/daeff1091515195a5ec9f92ae426c326.gif");
+    background-repeat:no-repeat;
+    background-size:90%;
+    background-position:center center;
+    
+}
+
+.stopwatch-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: brown;
+    background-color: #c3c4c7;
+    height:40px;
+    text-align:center;
+    border: solid rgb(242, 25, 220);
+    border-radius:50px;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    
+    text-align: center;
+    padding: 10px;
+
+
+}
